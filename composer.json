@@ -1,0 +1,40 @@
+{
+  "name": "nox-it/yii2-nox-behaviors",
+  "description": "Yii2 NOX Behaviors",
+  "type": "library",
+  "keywords": [
+    "yii2",
+    "extension",
+    "framework",
+    "behaviors",
+    "php"
+  ],
+  "license": "Apache-2.0",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Jonatas Sas",
+      "email": "atendimento@jsas.com.br"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0",
+    "nox-it/yii2-nox": "1.*",
+    "nox-it/yii2-nox-helpers": "1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "nox\\behaviors\\": "behaviors/"
+    }
+  },
+  "config": {
+    "process-timeout": 1800
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://bitbucket.org/noxit-plugins/yii2-nox-behaviors"
+    }
+  ]
+}
