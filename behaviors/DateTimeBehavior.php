@@ -2,7 +2,6 @@
 
     namespace nox\behaviors;
 
-    use Yii;
     use yii\behaviors\AttributeBehavior;
     use yii\db\BaseActiveRecord;
     use yii\db\Expression;
