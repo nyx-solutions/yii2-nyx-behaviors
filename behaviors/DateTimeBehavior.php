@@ -18,13 +18,13 @@
          * @var string the attribute that will receive date/time value
          * Set this property to false if you do not want to record the creation time.
          */
-        public $createdAtAttribute = 'createdAt';
+        public string $createdAtAttribute = 'createdAt';
 
         /**
          * @var string the attribute that will receive date/time value.
          * Set this property to false if you do not want to record the update time.
          */
-        public $updatedAtAttribute = 'updatedAt';
+        public string $updatedAtAttribute = 'updatedAt';
 
         /**
          * @var callable|Expression The expression that will be used for generating the datetime.
@@ -70,10 +70,11 @@
          * ```
          *
          * @param string $attribute the name of the attribute to update.
+         *
+         * @noinspection PhpPossiblePolymorphicInvocationInspection
          */
         public function touch($attribute)
         {
-            /** @noinspection PhpUndefinedMethodInspection */
             $this->owner->updateAttributes(array_fill_keys((array)$attribute, $this->getValue(null)));
         }
     }
