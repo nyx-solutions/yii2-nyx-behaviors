@@ -1,6 +1,6 @@
 <?php
 
-    namespace nox\behaviors;
+    namespace nyx\behaviors;
 
     use yii\behaviors\AttributeBehavior;
     use yii\db\BaseActiveRecord;
