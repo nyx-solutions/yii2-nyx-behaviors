@@ -1,4 +1,4 @@
-Yii PHP Framework Version 2 / NOX Behaviors
+Yii PHP Framework Version 2 / NYX Behaviors
 ===========================================
 
 Collection of useful behaviors for Yii Framework 2.0 (at the present there is only one behavior, the `datetime` behavior.).
